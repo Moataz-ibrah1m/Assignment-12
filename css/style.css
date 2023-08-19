@@ -1,0 +1,211 @@
+#Home
+{
+    width: 100%;
+    height: 660px;
+    background-image: url(../img/2015-635644298229809600-980.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+
+.head
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 660px;
+    background-color: rgba(214, 46, 51 , 0.2); 
+}
+#Home h1
+{
+    margin-top: 200px;
+    font-size: 60px;
+    text-align: center;
+}
+.menu-text p
+{
+    font-size: 25px;
+    text-align: center;
+}
+.link-open
+{
+    position: absolute;
+    font-size:35px;
+    cursor:pointer;
+    margin-top: 200px;
+    margin-left: 20px;
+    text-align: start;  
+}
+.menu-text
+{
+    transition: margin-left 0.5s;
+    padding: 16px; 
+}
+
+.link-menu
+{
+    height:100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 9999999;
+}
+.link-menu a
+{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+    margin-top: 25px;
+}
+
+.close
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#Duration
+{
+    margin-top: 100px;
+
+}
+.toggle-section
+{
+    padding: 20px;
+    margin: 2px;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+.content 
+{
+    padding: 20px;
+    background-color: #ccc;
+    display: none;
+}
+#Details
+{
+    background-image: url(../img/joinus.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+    margin-top:50px
+}
+.Details-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(214, 46, 51 , 0.4);
+    color: white; 
+    
+}
+.container
+{
+    margin-top: 90px;
+}
+
+.time-count
+{
+    padding: 30px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+#Contact
+{
+    margin-top: 100px;
+}
+
+
+.Contact-head h2
+{
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.Contact-head
+{
+    color:#777;
+    font-weight: 300;
+    font-size: 16px;
+}
+.Contact-info h3
+{
+    color:#444;
+    font-size: 18px;
+    font-weight: bold;
+}
+.Contact-info
+{
+    font-size: 16px;
+    line-height: 26px;
+    color:#777;
+}
+.icons
+{
+    margin-top:50px;
+}
+.social-icon i
+{
+    margin-right: 10px;
+    border:1px solid #999;
+    width:40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+.social-icon i:hover
+{
+    color:#fff;
+    background-color: #D62E33;
+    border:1px solid #D62E33;
+}
+form input
+{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+form textarea
+{
+    margin-bottom: 20px;
+    border-radius: 0;
+    height: 200px;
+    resize:vertical;
+}
+form button
+{
+    background-color: #D62E33;
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    display:block;
+    margin:20px 0px ;
+}
+#Character
+{
+    font-size: 20px;
+    color: #D62E33;
+}
